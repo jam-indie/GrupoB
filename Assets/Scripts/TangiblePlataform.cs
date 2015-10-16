@@ -22,7 +22,7 @@ public class TangiblePlataform : MonoBehaviour
 				this.MyCollider.isTrigger = true;
 			}
 
-			if(Player.transform.position.y > this.gameObject.transform.position.y + this.gameObject.transform.localScale.y)
+			if(Player.transform.position.y > this.gameObject.transform.position.y)
 			{
 				this.MyCollider.isTrigger = false;
 			}

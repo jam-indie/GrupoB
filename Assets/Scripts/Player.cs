@@ -11,7 +11,6 @@ public class Player : MonoBehaviour
 
 	//Physics
 	private Rigidbody2D MyRigidBody;
-	private int Clicks;
 	public bool CanJump;
 	public float JumpForce;
 	public Animator Anim;
@@ -23,7 +22,6 @@ public class Player : MonoBehaviour
 		MyRigidBody = GetComponent<Rigidbody2D>();
 		Anim = GetComponent<Animator> ();
 		MySpriteRenderer = GetComponent<SpriteRenderer> ();
-		//CanJump = true;
 		Anim.enabled = false;
 	}
 
@@ -62,7 +60,6 @@ public class Player : MonoBehaviour
 		if (coll.gameObject.tag == "Ground") 
 		{
 			CanJump = true;
-			Debug.Log ("Enter");
 		}
 	}
 
@@ -71,7 +68,6 @@ public class Player : MonoBehaviour
 		if(coll.gameObject.tag == "Ground")
 		{
 			CanJump = false;
-			Debug.Log ("Exit");
 		}
 	}
 
@@ -80,7 +76,6 @@ public class Player : MonoBehaviour
 		if(coll.gameObject.tag == "Ground")
 		{
 			CanJump = true;
-			Debug.Log ("Stay");
 		}
 	}
 }
