@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SceneScripts\CameraCorrection.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player.cs" Line="18" Column="25" />
-      <File FileName="Assets\Scripts\TangiblePlataform.cs" Line="5" Column="2" />
+      <File FileName="Assets\Scripts\SceneScripts\CameraCorrection.cs" Line="19" Column="161" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
