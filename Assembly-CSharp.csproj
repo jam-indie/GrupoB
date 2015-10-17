@@ -46,8 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\TangiblePlataform.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\Player.cs" />
+     <Compile Include="Assets\Scripts\SceneScripts\CameraCorrection.cs" />
+     <Compile Include="Assets\Scripts\SceneScripts\TangiblePlataform.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
