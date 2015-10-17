@@ -23,10 +23,10 @@ public class Score : MonoBehaviour
 
 
     }
-   /* void OnTriggerEnter2D(Collider2D other)
+   void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.tag == "cubo")
+        if (other.tag == "Cubo")
         {
 
             other.gameObject.SetActive(false); // Quando o player entrar em contato com o objeto, somara um ponto e esse objeto fica desativado.
@@ -34,5 +34,5 @@ public class Score : MonoBehaviour
             score = score + 1;
 
         }
-    }*/
+    }
 }
