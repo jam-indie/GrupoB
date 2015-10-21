@@ -46,7 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\EnemyIA\EnemyIA.cs" />
+     <Compile Include="Assets\Scripts\EnemyIA\NewEnemyIA.cs" />
      <Compile Include="Assets\Scripts\EnemyIA\PlayerTest.cs" />
      <Compile Include="Assets\Scripts\HudScripts\HudLife.cs" />
      <Compile Include="Assets\Scripts\HudScripts\Score.cs" />
