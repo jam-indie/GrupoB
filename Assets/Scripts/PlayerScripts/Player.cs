@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
 	void Controls ()
 	{
 		MySpriteRenderer.sprite = MySprite;
-		Anim.enabled = false;
+		//Anim.enabled = false;
 
 		if (Input.GetKey(RightArrow)) 
 		{
@@ -60,6 +60,11 @@ public class Player : MonoBehaviour
 		if (Input.GetKeyDown(Space) && CanJump == true) 
 		{
 			MyRigidBody.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse);
+		}
+
+		if (Input.GetKeyUp (RightArrow)) 
+		{
+			Anim.enabled = false;
 		}
 	}//End of Controls void
 
