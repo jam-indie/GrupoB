@@ -48,6 +48,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\EnemyIA\NewEnemyIA.cs" />
      <Compile Include="Assets\Scripts\EnemyIA\PlayerTest.cs" />
+     <Compile Include="Assets\Scripts\HUD_Script\Timer.cs" />
+     <Compile Include="Assets\Scripts\HUD_Script\Vida.cs" />
      <Compile Include="Assets\Scripts\HudScripts\HudLife.cs" />
      <Compile Include="Assets\Scripts\HudScripts\Score.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\Player.cs" />
