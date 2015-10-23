@@ -46,15 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Assets\HUD\Hud_Script\HudVida.cs" />
-     <Compile Include="Assets\Assets\HUD\Hud_Script\Termometro.cs" />
-     <Compile Include="Assets\Assets\HUD\Hud_Script\Timer.cs" />
-     <Compile Include="Assets\Scripts\EnemyIA\NewEnemyIA.cs" />
-     <Compile Include="Assets\Scripts\EnemyIA\PlayerTest.cs" />
-     <Compile Include="Assets\Scripts\HUD_Script\MyTimer.cs" />
-     <Compile Include="Assets\Scripts\HUD_Script\Vida.cs" />
-     <Compile Include="Assets\Scripts\HudScripts\HudLife.cs" />
-     <Compile Include="Assets\Scripts\HudScripts\Score.cs" />
+     <Compile Include="Assets\Scripts\EnemyIA\EnemyIA.cs" />
+     <Compile Include="Assets\Scripts\HUDScripts\HudVida.cs" />
+     <Compile Include="Assets\Scripts\HUDScripts\Termometro.cs" />
+     <Compile Include="Assets\Scripts\HUDScripts\Timer.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\ShootScripts\BulletScripts\CherryRocket.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\ShootScripts\BulletScripts\GranulateShotgunBullets.cs" />
@@ -62,10 +57,10 @@
      <Compile Include="Assets\Scripts\PlayerScripts\ShootScripts\BulletScripts\LookMachineGunBullet.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\ShootScripts\WeaponChoose.cs" />
      <Compile Include="Assets\Scripts\SceneScripts\CameraCorrection.cs" />
-     <Compile Include="Assets\Scripts\SceneScripts\GrillAnim.cs" />
      <Compile Include="Assets\Scripts\SceneScripts\TangiblePlataform.cs" />
+     <Compile Include="Assets\Scripts\TrapScripts\GrillAnim.cs" />
+     <Compile Include="Assets\Scripts\TrapScripts\InfinityRotation.cs" />
      <Compile Include="Assets\Scripts\TrapScripts\Shell.cs" />
-     <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

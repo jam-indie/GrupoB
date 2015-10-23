@@ -80,7 +80,6 @@ public class Player : MonoBehaviour
 		{	
 			Debug.Log ("Test");
 			coll.gameObject.SetActive(false); // Quando o player entrar em contato com o objeto, somara um ponto e esse objeto fica desativado.
-			GameObject.Find("Score").GetComponent<Score>().score = GameObject.Find("Score").GetComponent<Score>().score + 1;
 		}
 	}//End of OnCollisionEnter2D
 
