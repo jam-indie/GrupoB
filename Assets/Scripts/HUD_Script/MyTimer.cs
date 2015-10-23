@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Timer : MonoBehaviour {
-
+public class MyTimer : MonoBehaviour 
+{
     public float tempo = 10.0f;
 
     // Use this for initialization
