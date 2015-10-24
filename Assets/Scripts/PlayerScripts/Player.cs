@@ -48,13 +48,13 @@ public class Player : MonoBehaviour
 		if (Input.GetKey(RightArrow)) 
 		{
 			transform.position += new Vector3(MovimentSpeed*Time.deltaTime,0,0);
-			gameObject.transform.localScale = new Vector3(1,1,1);
+			gameObject.transform.localScale = new Vector3(3,3,1);
 			Anim.enabled = true;
 		}
 		if (Input.GetKey(LeftArrow))
 		{
 			transform.position -= new Vector3(MovimentSpeed*Time.deltaTime,0,0);
-			gameObject.transform.localScale = new Vector3(-1,1,1);
+			gameObject.transform.localScale = new Vector3(-3,3,1);
 			Anim.enabled = true;
 		}
 		if (Input.GetKeyDown(Space) && CanJump == true) 
@@ -74,12 +74,6 @@ public class Player : MonoBehaviour
 		{
 			CanJump = true;
 			JumpCount = 0;
-		}
-
-		if (coll.gameObject.tag == "Cubo")
-		{	
-			Debug.Log ("Test");
-			coll.gameObject.SetActive(false); // Quando o player entrar em contato com o objeto, somara um ponto e esse objeto fica desativado.
 		}
 	}//End of OnCollisionEnter2D
 
