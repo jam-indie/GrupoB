@@ -47,9 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\EnemyIA\EnemyIA.cs" />
-     <Compile Include="Assets\Scripts\HUDScripts\HudVida.cs" />
-     <Compile Include="Assets\Scripts\HUDScripts\Termometro.cs" />
-     <Compile Include="Assets\Scripts\HUDScripts\Timer.cs" />
+     <Compile Include="Assets\Scripts\HudScripts\HudVida.cs" />
+     <Compile Include="Assets\Scripts\HudScripts\Termometro.cs" />
+     <Compile Include="Assets\Scripts\HudScripts\Timer.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\ShootScripts\BulletScripts\CherryRocket.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\ShootScripts\BulletScripts\GranulateShotgunBullets.cs" />
